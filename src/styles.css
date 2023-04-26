@@ -1,6 +1,69 @@
-:root{
+:root {
     --amarillo: #DACD12;
     --morado: #4B25C9;
     --gris-oscuro: #2D2D2D;
-    --gris-claro: #e4e4e4;
+    --gris-claro: #E3E2E2;
+    --gris-fondo: #929292;
+}
+
+#general {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--gris-claro);
+    opacity: 1;
+    background: repeating-linear-gradient(-45deg, var(--gris-fondo), var(--gris-fondo) 19.5px, var(--gris-claro) 19.5px, var(--gris-claro) 97.5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carrusel-uno{
+    background-color: var(--gris-oscuro);
+    height: 10em;
+    width: 97%;
+    margin: 2em 2em;
+}
+
+.breve-explicacion{
+    background-color: var(--morado);
+    border-radius: 50px;
+    height: 60vh;
+    width: 80%;
+    margin: 2em 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.caja-texto{
+    background-color: var(--amarillo);
+    height: 90%;
+    width: 100%;
+    margin: 2em 2em;
+    border-radius: 50px;
+}
+.texto-explicacion{
+    height: 90%;
+    width: 90%;
+    margin: 2em 2em;
+    text-align: center;
+    font-size: larger;
+    color: var(--gris-oscuro);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.caja-imagen{
+    background-color: var(--amarillo);
+    height: 90%;
+    width: 100%;
+    margin: 2em 2em;
+}
+
+.carrusel-dos{
+    background-color: var(--gris-oscuro);
+    height: 20em;
+    width: 80%;
+    margin: 2em 2em;
 }
