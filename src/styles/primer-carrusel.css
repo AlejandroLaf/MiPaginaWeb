@@ -1,0 +1,67 @@
+
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 35vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.scroll-parent {
+  position: relative;
+  width: 100vw;
+  height: 20rem;
+  padding: 2rem 0;
+  overflow-x: hidden;
+}
+
+.scroll-element {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.scroll-element:hover{
+    animation-play-state: paused;
+}
+
+.scroll-element img:hover {
+    transform: scale(1.5);
+}
+
+.scroll-element img {
+  width: 200px;
+  height: 200px;
+  margin: 2rem 2rem;
+}
+
+.primary {
+  animation: primary 20s linear infinite;
+}
+
+.secondary {
+  animation: secondary 20s linear infinite;
+}
+
+@keyframes primary {
+  from {
+    left: 0%;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes secondary {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0%;
+  }
+}
