@@ -1,0 +1,44 @@
+:root {
+    --amarillo: #DACD12;
+    --morado: #4B25C9;
+    --gris-oscuro: #2D2D2D;
+    --gris-claro: #E3E2E2;
+    --gris-fondo: #929292;
+}
+
+#general {
+    height: 100%;
+    width: 100%;
+    background-color: var(--gris-claro);
+    opacity: 1;
+    background: repeating-linear-gradient(-45deg, var(--gris-fondo), var(--gris-fondo) 19.5px, var(--gris-claro) 19.5px, var(--gris-claro) 97.5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.productos{
+    margin-top: 2rem;
+    height: 35vh;
+    width: 95%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.producto{
+    height: 90%;
+    width: 50%;
+    background-color: var(--amarillo);
+    margin: 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.foto{
+    width:50%;
+    height:100%;
+    background-color: var(--morado);
+}
+
