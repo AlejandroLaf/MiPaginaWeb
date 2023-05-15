@@ -63,10 +63,3 @@ body {
     height: 100%;
     width: 100%;
 }
-
-.carrusel-dos {
-    background-color: var(--gris-oscuro);
-    height: 20em;
-    width: 80%;
-    margin: 2em 2em;
-}
