@@ -1,3 +1,11 @@
+:root {
+    --amarillo: #DACD12;
+    --morado: #4B25C9;
+    --gris-oscuro: #2D2D2D;
+    --gris-claro: #E3E2E2;
+    --gris-fondo: #929292;
+}
+
 #general {
     height: 100%;
     width: 100%;
@@ -9,3 +17,73 @@
     align-items: center;
     justify-content: center;
 }
+
+.cabecera{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.ubicaciones{
+    margin-top: 2rem;
+    height: 35vh;
+    width: 95%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ubicacion{
+    height: 80%;
+    width: 80%;
+    margin: 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+}
+
+.foto{
+    width:100%;
+    height:100%;
+    border-radius: 25px;
+}
+
+.foto img{
+    position: relative;
+    width:100%;
+    height:100%;
+    border-radius: 25px;
+}
+
+
+.descripcion{
+    width:50%;
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0 20px;
+    color: var(--gris-oscuro);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nombre{
+    margin: 20px;
+}
+
+.enlace{
+    color:var(--morado);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.enlace:visited{
+    color:var(--morado);
+    text-decoration: none;
+}
+
+
