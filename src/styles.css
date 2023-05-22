@@ -8,6 +8,7 @@
 
 body {
     width: 100%;
+    overflow-x: hidden;
 }
 
 #general {
@@ -62,4 +63,23 @@ body {
 .caja-imagen img{
     height: 100%;
     width: 100%;
+    border-radius: 20px;
+}
+
+@media (max-width: 900px) {
+
+
+    .breve-explicacion{
+        flex-direction:column-reverse;
+        height:fit-content;
+    }
+
+    .caja-imagen{
+        width:90%;
+    }
+
+    .caja-texto{
+        width: 90%;
+        height: fit-content;
+    }
 }

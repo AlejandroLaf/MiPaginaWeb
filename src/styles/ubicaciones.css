@@ -16,6 +16,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .cabecera{
@@ -85,5 +86,18 @@
     color:var(--morado);
     text-decoration: none;
 }
+
+@media (max-width: 900px) {
+
+    .ubicaciones{
+        flex-direction: column;
+        align-items: center;
+        height: 90%;
+        width: 90%;
+
+    }
+    
+    }
+
 
 

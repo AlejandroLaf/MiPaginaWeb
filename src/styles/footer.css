@@ -55,7 +55,7 @@
 }
 
 .footer-bottom{
-    background: #000;
+    background-color: #000;
     width: 97.5%;
     padding: 20px;
     padding-bottom: 40px;
@@ -101,10 +101,15 @@
     color: var(--amarillo);
   }
 
-  @media (max-width:500px) {
+  @media (max-width:900px) {
     .footer-menu ul{
       display: flex;
       margin-top: 10px;
       margin-bottom: 20px;
+    }
+
+    .footer-bottom{
+      padding: 20px;
+      padding-bottom: 80px;
     }
     }

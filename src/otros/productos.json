@@ -1,0 +1,97 @@
+{
+    "productos": [
+        {
+            "accesorios": [
+                {
+                    "accesorio": {
+                        "nombre": "Aviadoras 18K",
+                        "marca": "Rockenberg",
+                        "slot-principal": "Sprint final",
+                        "precio": 16500 ,
+                        "url": "media/accesorio1.png"
+                    }
+                },
+                {
+                    "accesorio": {
+                        "nombre": "Beret Anakki",
+                        "marca": "Anakki",
+                        "slot-principal": "Impermeabilidad",
+                        "precio": 13700 ,
+                        "url": "media/accesorio2.png"
+                    }
+                },
+                {
+                    "accesorio": {
+                        "nombre": "Lentillas falsas",
+                        "marca": "Tentatek",
+                        "slot-principal": "Recarga especial",
+                        "precio": 2500 ,
+                        "url": "media/accesorio3.png"
+                    }
+                }
+            ]
+        },
+        {
+            "ropas": [
+                {
+                    "ropa": {
+                        "nombre": "Ropa de marinero",
+                        "marca": "Forge",
+                        "slot-principal": "Tintahorro (ppal.)",
+                        "precio": 4900 ,
+                        "url": "media/ropa1.png"
+                    }
+                },
+                {
+                    "ropa": {
+                        "nombre": "Jersey de beisbol",
+                        "marca": "Firefin",
+                        "slot-principal": "Recarga especial",
+                        "precio": 13100 ,
+                        "url": "media/ropa2.png"
+                    }
+                },
+                {
+                    "ropa": {
+                        "nombre": "Chaqueta universitaria",
+                        "marca": "Zekko",
+                        "slot-principal": "Tintahorro (sec.)",
+                        "precio": 16000 ,
+                        "url": "media/ropa3.png"
+                    }
+                }
+            ]
+        },
+        {
+            "zapatos": [
+                {
+                    "zapato": {
+                        "nombre": "Casuales arandano",
+                        "marca": "Kark-On",
+                        "slot-principal": "Tintahorro (sec.)",
+                        "precio": 2900 ,
+                        "url": "media/zapatos1.png"
+                    }
+                },
+                {
+                    "zapato": {
+                        "nombre": "Botas rosas",
+                        "marca": "Rockenberg",
+                        "slot-principal": "Recarga rápida",
+                        "precio": 7900 ,
+                        "url": "media/zapatos2.png"
+                    }
+                },
+                {
+                    "zapato": {
+                        "nombre": "Zapatillas altas verdes",
+                        "marca": "Kark-On",
+                        "slot-principal": "Recarga rápida",
+                        "precio": 900 ,
+                        "url": "media/zapatos3.png"
+                    }
+                }
+            ]
+        }
+    ]
+}

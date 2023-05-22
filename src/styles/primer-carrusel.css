@@ -6,6 +6,7 @@
   height: 35vh;
   width: 100vw;
   overflow: hidden;
+  margin-top: 10px;
 }
 
 .scroll-parent {

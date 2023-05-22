@@ -1,7 +1,7 @@
 .carrusel-dos {
-    height: 52rem;
-    width: 93.5rem;
-    border-radius: 2rem;
+    height: 90%;
+    width: 90%;
+    border-radius: 20px;
     overflow: hidden;
     left: 50%;
     margin-bottom: 4em;
@@ -21,6 +21,7 @@
   .slide img {
     width: 100%;
     height: 100%;
+    border-radius: 20px;
   }
   #slide1:checked ~ .s1 {
     margin-left: 0;
